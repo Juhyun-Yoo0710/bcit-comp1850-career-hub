@@ -1,0 +1,426 @@
+html {	
+    box-sizing: border-box;
+    font-family: "Wix Madefor Display", sans-serif;
+	font-size:1em;    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+	background-color:#ffffff; 
+}
+img{
+	max-width:100%;
+	height:auto;	
+}
+main{
+	background-color:#f6f5f3;	
+    flex: 1;
+}
+header {
+  background-color: #FFFFFF;  
+  border: 1px solid #f6f5f3;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+h1, h2, h3, p{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 2em;
+    color: #0b0731;
+    margin-bottom: 10px;
+}
+footer {
+  background-color: #0b0731;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+section{
+  margin: 20px 10px;
+  padding: 20px;
+    background-color: #ffffff;
+}
+button
+{
+    margin: 10px 0px 0px 0px;
+
+}
+/* Pseudoclass */
+/*an <a> tag pseudoclass */
+/*first, rules for all a tags...*/
+a{
+	list-style-type: none;
+	/*background-color: #FFFFFF;*/
+    background-color: transparent;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 5px;
+	color: #0b0731;
+}
+/* link has never been clicked */
+a:link{
+	color:#0b0731;
+	background-color: #FFFFFF;
+}
+/* link has been clicked previously */
+a:visited{
+	color:#0b0731;
+	background-color: #FFFFFF;
+}
+/* link is in mouseover state */
+a:hover{
+    color: #575656; 
+    background-color:#FFFFFF;
+
+}
+/* link is being clicked/tapped right now!! */
+a:active{
+	color:#fd0d0d;
+	background-color: #FFFFFF;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 0.9em;
+}
+th {
+  background-color: #0b0731;
+  color: #ffffff;
+  text-align: left;
+  padding: 10px;
+  font-weight: 300;
+}
+td {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 0.8em;
+}
+tr:nth-child(even) {
+  background-color: #f6f5f3;
+}
+tr:hover {
+  background-color: #eef3f8;
+}
+blockquote {
+  border-left: 4px solid #0b0731;
+  padding-left: 15px;
+  font-style: italic;
+}
+.gov_resources_div p{
+    font-size: 1.2em;
+    color: #0b0731;
+    margin-top: 10px;
+}
+.job_resources_div p{
+    font-size: 1.1em;
+    color: #0b0731;
+    margin-top: 10px;
+}
+.learn_resources_div p{
+    font-size: 1.1em;
+    color: #0b0731;
+    margin-top: 10px;
+} 
+.network_resources_div p{
+    font-size: 1.1em;
+    color: #0b0731;
+    margin-top: 10px;
+}  
+.section1 p{
+    font-size: 1.2em;
+    color: #0b0731;
+    margin-top: 10px;
+}
+.section1
+{
+    background-color: #e8ecff ;   
+}
+.section2{
+    box-shadow: 0 2px 8px rgba(0,0,0,1.0);
+}
+.journey_out-link
+{
+    margin: 10px 0px 0px 0px;
+}
+.journey_out-link a{
+    background-color: #0b0731;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+.journey_out-link a:hover{
+    background-color: #EEF3F8;
+    color: #2615c0; 
+    border-radius: 30px 
+}
+.out-link a{        
+    padding: 5px 10px;    
+}
+.out-link a:hover{    
+    background-color: #EEF3F8;
+    color: #2615c0; 
+    border-radius: 30px    
+}
+.lorem_ipsum a{
+    padding: 0px;
+    margin: 0px;
+    background-color: inherit;
+    color: #2615c0;
+}
+.lorem_ipsum a:hover{
+    text-decoration: underline;
+}
+.gov_img, .learn_img, .job_img, .network_img{
+    border: #0b0731 solid 3px;
+    border-radius: 30px;
+}
+.gov_img_container, .job_img_container, .learn_img_container, .network_img_container{
+    margin-top: 10px;
+}
+.job_sections {
+    display: block;
+}
+.job_sections .section2{
+    margin-top: 20px;
+    border: 1px solid #0b0731;
+    border-radius: 10px;
+}
+.learn_sections .section2{
+    margin-top: 20px;
+    border: 1px solid #0b0731;
+    border-radius: 10px;
+}
+.network_sections .section2{
+    margin-top: 20px;
+    border: 1px solid #0b0731;
+    border-radius: 10px;
+}
+.copyright
+{
+    margin: 10px;
+}
+.contact_info
+{
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.contact_info ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.contact_info li{
+
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+}
+.contact_info a{
+	background-color: #0b0731;
+	padding: 5px;
+	border-radius: 5px;
+	color: #ffffff;
+    margin: 10px;
+}
+.contact_info a:hover{
+    color: #2615c0;
+    text-decoration: underline;
+    text-decoration-color: #2615c0;
+}
+.journey-ol li {
+  margin-bottom: 20px;
+}
+.journey-ol h3 {
+  margin-bottom: 5px;
+}
+.journey-ul{
+    
+    list-style-image: url('../images/check-solid.png');
+    padding-left: 20px;
+}
+.journey-ul li {
+  margin: 0px;
+  line-height: 1.5;
+}
+.div_journey
+{
+    margin: 10px 0px 10px 0px;    
+}
+#canada_wordmark
+{
+    width: 150px;
+    height: auto;
+}
+#bc_logo
+{
+    width: 150px;
+    height: auto;
+}
+#government_logos
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 0px 10px 0px;   
+}
+#div-header-top{
+  display: grid;
+  grid-template-columns: 150px auto;
+  align-items: center;    
+  justify-content: space-between;
+}
+
+#nav-bar a:hover{    
+    color: #2615c0;
+    text-decoration: underline;
+    text-decoration-color: #2615c0;
+}
+#nav-bar a:active{    
+    color: #2615c0;
+    text-decoration: underline;
+    text-decoration-color: #2615c0;
+}
+#active_page
+{   
+    color: #2615c0;
+}
+#nav-bar{
+    display: block;
+}
+#nav-bar ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style-type: none; 
+
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+#nav-bar a{
+    white-space: nowrap;
+}
+#site-logo{
+    display: block;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    color: #0b0731;
+    text-align: center;
+}
+#wrapper{
+	/*sticky footer*/
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+	/* restrict width */	
+	max-width: 1024px;
+	margin:auto;	
+}
+#menu_nav{
+    margin-left: 10px;
+	display: none;
+}
+#menu_icon
+{
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+}
+@media (min-width: 350px) {
+    td{
+        font-size: 0.9em;
+    }
+}
+@media (min-width: 600px) {
+    #menu_nav{
+        display: block;
+    }
+    #menu_icon{
+        display: none;
+    }
+    header {    
+        display: grid;
+        grid-template-columns: 150px auto;
+        align-items: center;    
+        justify-content: space-between;
+    }
+    .gov_img_container
+    {
+        display: grid;
+        grid-template-columns: 300px auto;
+        gap: 20px;
+        align-items: center;
+    } 
+    .job_img_container{
+        display: grid;
+        grid-template-columns: 300px auto;
+        gap: 10px;
+        align-items: center;
+    }
+    .learn_img_container{
+        display: grid;
+        grid-template-columns: 300px auto;
+        gap: 10px;
+        align-items: center;
+    }
+    .network_img_container{
+        display: grid;
+        grid-template-columns: 300px auto;
+        gap: 10px;
+        align-items: center;
+    }
+}
+@media (min-width: 700px) {
+    .job_sections
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .job_img_container{
+        display: block;
+    }
+    .learn_sections
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .learn_img_container{
+        display: block;
+    }
+    .network_sections
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .network_img_container{
+        display: block;
+    } 
+}
+
